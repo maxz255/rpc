@@ -14,4 +14,4 @@ class Client(object):
 if __name__ == "__main__":
     c = Client()
     c.connect('127.0.0.1', 5000)
-    c.send("shit".encode("utf-8"))
+    c.send("hello".encode("utf-8"))
